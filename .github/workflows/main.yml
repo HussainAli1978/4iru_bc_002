@@ -40,5 +40,5 @@ jobs:
       run: npm install -g surge
       
     - name: run Surge
-      run: surge ./build 4iru_bc_002.surge.sh --token ${{secrets.4iru_bc_002}}
+      run: surge ./build 4iru_bc_002.surge.sh --token ${{secrets.surgeToken}}
       
